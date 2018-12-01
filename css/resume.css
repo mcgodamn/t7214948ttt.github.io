@@ -10,7 +10,8 @@ body {
   color: #646464;
   overflow-y: hidden;
   overflow-x: hidden;
-  background-color: #dfdfdf
+  background-color: #dfdfdf;
+  position: relative;
 }
 
 
