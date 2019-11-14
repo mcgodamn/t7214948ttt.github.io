@@ -4,16 +4,19 @@ body {
 }
 
 #background-img {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    width: 100%;
     height: auto;
-    position: fixed;
-    z-index: -1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+
     background: url("../Image/bg.jpg") no-repeat center top fixed;
+    z-index: -1;
+
+    transform: translate3d(0, 0, 0);
+
     background-size: cover;
     -webkit-background-size: cover;
-    transform: translate3d(0, 0, 0);
 }
 
 .info-hearder-font {
