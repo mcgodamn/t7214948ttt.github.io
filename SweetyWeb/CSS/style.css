@@ -4,16 +4,12 @@ body {
 }
 
 #background-img {
-    width: 100vw;
-    /* min-width: 800px; */
-    height: 100vh;
-    /* min-height: 512px; */
     z-index: -1;
-    position: fixed;
-    background: url("../Image/bg.jpg") center center no-repeat;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    margin: 0px;
-    padding: 0px;
+    background: url("../Image/bg.jpg") center center no-repeat;
     transform: translate3d(0, 0, 0);
 }
 
