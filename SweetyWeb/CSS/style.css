@@ -8,7 +8,7 @@ body {
     height: auto;
     position: absolute;
     top: 0;
-    bottom: 0;
+    /* bottom: 0; */
 
     background: url("../Image/bg.jpg") no-repeat center top fixed;
     z-index: -1;
@@ -16,7 +16,6 @@ body {
     transform: translate3d(0, 0, 0);
 
     background-size: cover;
-    -webkit-background-size: cover;
 }
 
 .info-hearder-font {
