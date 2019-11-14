@@ -4,11 +4,10 @@ body {
 }
 
 #background-img {
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     top: 0;
     left: 0;
-    bottom: -10px;
     z-index: -1;
     position: fixed;
     background: url("../Image/bg.jpg") center center no-repeat;
