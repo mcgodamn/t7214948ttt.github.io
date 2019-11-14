@@ -5,9 +5,9 @@ body {
 
 #background-img {
     width: 100vw;
-    height: 1024px;
-    top: 0;
-    left: 0;
+    min-width: 800px;
+    height: 100vh;
+    min-height: 512px;
     z-index: -1;
     position: fixed;
     background: url("../Image/bg.jpg") center center no-repeat;
