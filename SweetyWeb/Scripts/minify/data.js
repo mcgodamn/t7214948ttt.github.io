@@ -1,0 +1,1 @@
+export const DATA_TYPE={ACCOUNT:{text:"帳號"},EMAIL:{text:"信箱"},PHONE:{text:"手機"}};export const AREA_TYPE={TW:{text:"台灣"},HK:{text:"香港"},MO:{text:"澳門"}};export const LOG_TYPE={NOT_LOGIN:{text:"登入"},LOGINNED:{text:"登出"}};export const ASSET_TYPE={free_gem:{text:"免費寶石",image_url:"/Image/Icon_Gem.png"},paid_gem:{text:"付費寶石",image_url:"/Image/Icon_Gem.png"}};
