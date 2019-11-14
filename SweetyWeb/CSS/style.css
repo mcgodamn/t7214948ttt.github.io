@@ -5,17 +5,16 @@ body {
 
 #background-img {
     width: 100%;
-    height: auto;
-    position: absolute;
+    height: 100%;
     top: 0;
-    /* bottom: 0; */
-
-    background: url("../Image/bg.jpg") no-repeat center top fixed;
+    left: 0;
     z-index: -1;
-
-    transform: translate3d(0, 0, 0);
-
+    position: fixed;
+    background: url("../Image/bg.jpg") center center no-repeat;
     background-size: cover;
+    margin: 0px;
+    padding: 0px;
+    transform: translate3d(0, 0, 0);
 }
 
 .info-hearder-font {
